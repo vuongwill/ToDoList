@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.hidden {
+    display: none;
+}
+
+section.notes {
+    margin: 1rem auto;
+    padding: 20px;
+    border: 2px solid black;
+    width: 75vh;
+    background-color: floralwhite;
+}
+button {
+    margin: 1rem;
+}
+
+textarea {
+    background-color: seashell;
+}
