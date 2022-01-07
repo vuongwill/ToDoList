@@ -7,21 +7,30 @@ html {
     background-color: antiquewhite;
 }
 
-.hidden {
-    display: none;
-}
-
 section.notes {
     margin: 1rem auto;
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(129, 126, 126);
     width: 75vh;
     background-color: floralwhite;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 button {
     margin: 1rem;
+    padding: 5px 5px;
+    align-self: flex-start;
+    background-color: darksalmon;
+    border: 0px;
+    border-radius: 5px;
 }
 
 textarea {
     background-color: seashell;
+    border-radius: 5px;
+}
+
+section.notes.hidden {
+    display: none;
 }
