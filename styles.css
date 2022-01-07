@@ -24,6 +24,7 @@ button {
     background-color: darksalmon;
     border: 0px;
     border-radius: 5px;
+    color: black;
 }
 
 textarea {
