@@ -7,7 +7,7 @@ document.querySelector('#userTextClear').addEventListener('click', () => documen
 function enterKey() {
     let key = window.event.keyCode
     if (key === 13 && !event.shiftKey) {
-        document.getElementById("enter").click()
+        document.querySelector("#enter").click()
         event.preventDefault();
     }
 }
